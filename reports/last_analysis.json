@@ -1,0 +1,35 @@
+{
+  "home": "New York Knicks",
+  "away": "Miami Heat",
+  "market": {
+    "home_odds": 1.53,
+    "away_odds": 4.5,
+    "imp_home": 0.6535947712418301,
+    "imp_away": 0.2222222222222222
+  },
+  "fair_market": {
+    "home": 0.746268656716418,
+    "away": 0.2537313432835821
+  },
+  "model": {
+    "home_prob": 0.54,
+    "away_prob": 0.45999999999999996
+  },
+  "raw_analysis": {
+    "prediction": {
+      "home_team": "New York Knicks",
+      "away_team": "Miami Heat",
+      "home_win_probability": 0.54,
+      "away_win_probability": 0.45999999999999996,
+      "predicted_winner": "New York Knicks"
+    },
+    "efficiency_comparison": {
+      "net_rating_diff": 0.0,
+      "home_off_vs_away_def": 0.0
+    },
+    "recent_form": {
+      "home_win_pct": 0.5,
+      "away_win_pct": 0.5
+    }
+  }
+}
