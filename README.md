@@ -35,3 +35,20 @@ Run tests locally:
 ```
 
 CI: this project includes a GitHub Actions workflow that runs `pytest` on push and pull requests (file: `.github/workflows/ci.yml`).
+
+Streamlit control panel (quick start):
+
+1. Install Streamlit into the project's virtualenv (activate `.venv` first):
+
+```powershell
+.venv\Scripts\Activate.ps1
+pip install streamlit
+```
+
+2. Run the app:
+
+```powershell
+.venv\Scripts\python.exe -m streamlit run app.py
+```
+
+The panel provides buttons to run the single-match analysis (uses `analyze_cli.py`), run tests, and export JSON/CSV to `reports/`.
